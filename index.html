@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <img src="img/Logo.svg" class="header-img">
+        </h1>
+    </header>
+    <main class="main">
+        <section class="section-encrypt">
+            <div class="div-area-crypt">
+                <textarea class="txt-crypt" placeholder="Enter text to encrypt or decrypt...." id="text"></textarea>
+            </div>
+            <div class="container-extras">
+                <div class="alert">
+                    <img src="img/alerta.svg" alt="Alert">
+                    <p id="error_text">Only lower case letters and without accent</p>
+                </div>
+                <div class="delete">
+                    <button id="btn_delete" class="btn-delete">
+                        <span class="span-delete"><img src="img/trash.svg" alt="delete-icon" class="img-delete"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="div-btn-crypt">
+                <input id="btn_encrypt" class="btn-left" type="button" value="Encrypt">
+                <input id="btn_decrypt" type="button" value="Decrypt" class="btn-right">
+            </div>
+        </section>
+        <section class="section-copy">
+            <div class="div-mun">
+                <img id="img_doll" class="img-mun" src="img/Muñeco.svg" alt="Doll">
+            </div>
+            <div class="div-area-copy">
+                <textarea disabled class="tittle-copy" id="tittle_copy" type="text">No message was found
+                </textarea>
+                <p id="paragraph_copy" class="alert-copy">Enter the text you wish to encrypt or<br>decrypt.</p>
+            </div>
+            <div class="div-btn-copy">
+                <input id="btn_copy" type="button" value="Copy" class="btn-copy">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h1 class="footer-creator">Creator: Sandro Toledo Medina</h1>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
