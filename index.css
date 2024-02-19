@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 550px) {
     * {
         font-family: 'Inter', sans-serif;
         box-sizing: border-box;
@@ -215,7 +215,7 @@
     }
 }
 
-@media (min-width:768px) and (max-width: 1024px) {
+@media (min-width:551px) and (max-width: 1024px) {
     * {
         font-family: 'Inter', sans-serif;
         box-sizing: border-box;
@@ -425,7 +425,7 @@
     }
 }
 
-@media (min-width:1201px) {
+@media (min-width:1025px) {
     * {
         font-family: 'Inter', sans-serif;
         box-sizing: border-box;
